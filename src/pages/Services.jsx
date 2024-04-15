@@ -1,6 +1,10 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import '../styles/style.css';
+import img1 from "../assets/about/bg_3.jpg"
+import img2 from "../assets/about/bg_1.jpg"
+import img3 from "../assets/about/bg_4.jpg"
+
 
 const Services = () => {
   useEffect(() => {
@@ -20,7 +24,7 @@ const Services = () => {
           <div className='w-80 h-[25rem] relative border-2 border-yellow-600 rounded-3xl'>
             <img
               className='right-4 bottom-4 absolute object-cover rounded-3xl w-80 h-[25rem]'
-              src="src/assets/about/bg_3.jpg" alt="" />
+              src={img1} alt="" />
             <div className='rounded-full relative right-12 bottom-14'>
               <button className='service-num-color absolute rounded-full text-3xl font-semibold flex items-center justify-center text-white p-4 right-0 w-16 h-16'>1</button>
             </div>
@@ -35,7 +39,7 @@ const Services = () => {
           <div className='w-80 h-[25rem] relative border-2 border-yellow-600 rounded-3xl'>
             <img
               className='right-4 bottom-4 absolute object-cover rounded-3xl w-80 h-[25rem]'
-              src="src/assets/about/bg_1.jpg" alt="" />
+              src={img2} alt="" />
             <div className='rounded-full relative right-10 bottom-14'>
               <button className='service-num-color absolute rounded-full text-3xl font-semibold flex items-center justify-center text-white p-4 right-8 w-16 h-16'>2</button>
             </div>
@@ -50,7 +54,7 @@ const Services = () => {
           <div className='w-80 h-[25rem] relative border-2 border-yellow-600 rounded-3xl'>
             <img
               className='right-4 bottom-4 absolute object-cover rounded-3xl w-80 h-[25rem]'
-              src="src/assets/about/bg_4.jpg" alt="" />
+              src={img3} alt="" />
             <div className='rounded-full relative right-10 bottom-14'>
               <button className='service-num-color absolute rounded-full text-3xl font-semibold flex items-center justify-center text-white p-4 right-8 w-16 h-16'>3</button>
             </div>

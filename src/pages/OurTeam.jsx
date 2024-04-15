@@ -4,13 +4,19 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../styles/style.css'; // Import your custom CSS file for styling
 import { FaQuoteLeft } from 'react-icons/fa';
+import img1 from "../assets/team/person_7.jpg"
+import img2 from "../assets/team/person_4.jpg"
+import img3 from "../assets/team/person_3.jpg"
+import img4 from "../assets/team/team_5.jpg"
+import img5 from "../assets/team/team_6.jpg"
+import img6 from "../assets/team/person_1.jpg"
 
 const OurTeam = () => {
   const teams = [
     {
       id: 1,
       name: 'John Doe',
-      photo: 'src/assets/team/person_7.jpg',
+      photo: img1,
       testimony:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et debitis hic vero natus adipisci delectus vel, asperiores architecto soluta deserunt mollitia necessitatibus! ',
       dept: 'Software Engineer',
@@ -18,7 +24,7 @@ const OurTeam = () => {
     {
       id: 2,
       name: 'Jane Smith',
-      photo: 'src/assets/team/person_4.jpg',
+      photo: img2,
       testimony:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et debitis hic vero natus adipisci delectus vel, asperiores architecto soluta deserunt mollitia necessitatibus! ',
       dept: 'Software Engineer',
@@ -26,7 +32,7 @@ const OurTeam = () => {
     {
       id: 3,
       name: 'Jane Smith',
-      photo: 'src/assets/team/person_3.jpg',
+      photo: img3,
       testimony:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et debitis hic vero natus adipisci delectus vel, asperiores architecto soluta deserunt mollitia necessitatibus! ',
       dept: 'Software Engineer',
@@ -34,7 +40,7 @@ const OurTeam = () => {
     {
       id: 4,
       name: 'John Doe',
-      photo: 'src/assets/team/team_5.jpg',
+      photo: img4,
       testimony:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et debitis hic vero natus adipisci delectus vel, asperiores architecto soluta deserunt mollitia necessitatibus! ',
       dept: 'Software Engineer',
@@ -42,7 +48,7 @@ const OurTeam = () => {
     {
       id: 5,
       name: 'John Doe',
-      photo: 'src/assets/team/team_6.jpg',
+      photo: img5,
       testimony:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et debitis hic vero natus adipisci delectus vel, asperiores architecto soluta deserunt mollitia necessitatibus! ',
       dept: 'Software Engineer',
@@ -50,7 +56,7 @@ const OurTeam = () => {
     {
       id: 6,
       name: 'John Doe',
-      photo: 'src/assets/team/person_1.jpg',
+      photo: img6,
       testimony:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et debitis hic vero natus adipisci delectus vel, asperiores architecto soluta deserunt mollitia necessitatibus! ',
       dept: 'Software Engineer',

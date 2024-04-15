@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaFacebookF, FaInstagram, FaLinkedin, FaLinkedinIn, FaTwitter, FaYoutube } from 'react-icons/fa';
+import logo from "../assets/roof-logo.png"
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
       <div className='w-full max-w-6xl mx-auto flex flex-col gap-6 px-6 lg:flex-row lg:items-start lg:py-6 lg:justify-between items-center'>
         <div className='flex flex-col gap-4 items-center lg:items-start'>
           <img 
-            src="src/assets/roof-logo.png" 
+            src={logo} 
             alt="logo-img"
             className='w-32'
           />

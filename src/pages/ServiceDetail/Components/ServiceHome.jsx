@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom';
 import AOS from 'aos';
 import { FaBars } from 'react-icons/fa';
 import 'tailwindcss/tailwind.css';
+import img1 from "../../../assets/bg/min-hero.jpg"
+
 
 const ServiceHome = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +26,7 @@ const ServiceHome = () => {
   };
 
   const myStyle = {
-    backgroundImage: `url('src/assets/bg/min-hero.jpg')`,
+    backgroundImage: `url(${img1})`,
   };
 
   return (

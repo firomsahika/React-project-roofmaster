@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
+import img from "../assets/bg/hero-bg-4.jpg"
 
 const Protection = () => {
   useEffect(() => {
@@ -9,7 +10,7 @@ const Protection = () => {
   }, []);
 
   const containerStyle = {
-    backgroundImage: `url(src/assets/bg/hero-bg-4.jpg)`,
+    backgroundImage: img,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',

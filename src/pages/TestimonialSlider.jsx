@@ -4,48 +4,55 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../styles/style.css';
 import { FaQuoteLeft } from 'react-icons/fa';
+import img1 from "../assets/person/person_1.jpg"
+import img2 from "../assets/person/person_2.jpg"
+import img3 from "../assets/person/person_3.jpg"
+import img4 from "../assets/person/person_1.jpg"
+import img5 from "../assets/person/person_1.jpg"
+import img6 from "../assets/person/person_1.jpg"
+
 
 const TestimonialSlider = () => {
   const testimonials = [
     {
       id: 1,
       name: 'John Doe',
-      photo: 'src/assets/person/person_1.jpg',
+      photo: img1,
       testimony: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et debitis hic vero natus adipisci delectus vel, asperiores architecto soluta deserunt mollitia necessitatibus! ',
       dept: "Software Engineer",
     },
     {
       id: 2,
       name: 'Jane Smith',
-      photo: 'src/assets/person/person_2.jpg',
+      photo: img2,
       testimony: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et debitis hic vero natus adipisci delectus vel, asperiores architecto soluta deserunt mollitia necessitatibus! ',
       dept: "Software Engineer",
     },
     {
       id: 3,
       name: 'Jane Smith',
-      photo: 'src/assets/person/person_3.jpg',
+      photo: img3,
       testimony: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et debitis hic vero natus adipisci delectus vel, asperiores architecto soluta deserunt mollitia necessitatibus! ',
       dept: "Software Engineer",
     },
     {
       id: 4,
       name: 'John Doe',
-      photo: 'src/assets/person/person_1.jpg',
+      photo: img4,
       testimony: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et debitis hic vero natus adipisci delectus vel, asperiores architecto soluta deserunt mollitia necessitatibus! ',
       dept: "Software Engineer",
     },
     {
       id: 5,
       name: 'John Doe',
-      photo: 'src/assets/person/person_1.jpg',
+      photo: img5,
       testimony: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et debitis hic vero natus adipisci delectus vel, asperiores architecto soluta deserunt mollitia necessitatibus! ',
       dept: "Software Engineer",
     },
     {
       id: 6,
       name: 'John Doe',
-      photo: 'src/assets/person/person_1.jpg',
+      photo: img6,
       testimony: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et debitis hic vero natus adipisci delectus vel, asperiores architecto soluta deserunt mollitia necessitatibus! ',
       dept: "Software Engineer",
     },

@@ -1,52 +1,61 @@
 import React from 'react';
+import img1 from "../../assets/team/person_1.jpg"
+import img2 from "../../assets/team/person_2.jpg"
+import img3 from "../../assets/team/person_3.jpg"
+import img4 from "../../assets/team/person_4.jpg"
+import img5 from "../../assets/team/person_5.jpg"
+import img6 from "../../assets/team/person_6.jpg"
+import img7 from "../../assets/team/person_7.jpg"
+import img8 from "../../assets/team/person_8.jpg"
+
 
 const ExecutiveTeam = () => {
   const executives = [
     {
       id: 1,
-      image: 'src/assets/team/person_1.jpg',
+      image: img1,
       name: 'Zyne Tyler',
       job: 'CEO & Co-Founder'
     },
     {
       id: 2,
-      image: 'src/assets/team/person_2.jpg',
+      image: img2,
       name: 'Molly Harrison',
       job: 'Co_Founder & Lead-Engineer'
     },
     {
       id: 3,
-      image: 'src/assets/team/person_3.jpg',
+      image: img3,
       name: 'Adonis Roberts',
       job: 'Senior Software Engineer'
     },
     {
       id: 4,
-      image: 'src/assets/team/person_4.jpg',
+      image: img4,
       name: 'Margaret Parson',
       job: 'Senior UI/UX Designer'
     },
     {
       id: 5,
-      image: 'src/assets/team/person_5.jpg',
+      image: img5,
       name: 'Kade Casillo',
       job: 'Software Engineer'
     },
     {
       id: 6,
-      image: 'src/assets/team/person_6.jpg',
+      image: img6,
       name: 'Lena Wringhat',
       job: 'Community Manager'
     },
     {
       id: 7,
-      image: 'src/assets/team/person_7.jpg',
+      image: img7,
       name: 'Luis Lindesy',
       job: 'Business Development'
     },
     {
       id: 8,
-      image: 'src/assets/team/person_8.jpg',
+      image:img8,
       name: 'Norah Patterson',
       job: 'Marketing Manager'
     }

@@ -1,12 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin, FaLinkedinIn } from 'react-icons/fa';
 import AOS from 'aos';
+import img1 from "../../../assets/about/bg_3.jpg"
+import img2 from "../../../assets/about/bg_2.jpg"
+import img3 from "../../../assets/about/bg_1.jpg"
 
 const RoofMaintenance = () => {
   const [backgroundImages, setBackgroundImages] = useState([
-    { id: 1, image: 'src/assets/about/bg_3.jpg' },
-    { id: 2, image: 'src/assets/about/bg_2.jpg' },
-    { id: 3, image: 'src/assets/about/bg_1.jpg' },
+    { id: 1, image: img1 },
+    { id: 2, image: img2},
+    { id: 3, image: img3 },
   ]);
 
   useEffect(() => {

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import AOS from 'aos'
 import { FaBars } from 'react-icons/fa'
+import img1 from "../../../assets/bg/min-hero.jpg"
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -23,7 +24,7 @@ const Home = () => {
     
 
     const myStyle = {
-        backgroundImage: `url('src/assets/bg/min-hero.jpg')`,
+        backgroundImage: `url(${img1})`,
       };
   return (
     <div 

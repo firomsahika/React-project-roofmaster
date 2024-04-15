@@ -4,33 +4,39 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import "../styles/style.css";
 import { FaQuoteLeft } from 'react-icons/fa';
+import img1 from "../assets/clients/client_1.jpg"
+import img2 from "../assets/clients/client_2.jpg"
+import img3 from "../assets/clients/client_3.jpg"
+import img4 from "../assets/clients/client_4.jpg"
+import img5 from "../assets/clients/client_8.jpg"
+import img6 from "../assets/clients/client_6.jpg"
 
 const OurClients = () => {
   const teams = [
     {
       id: 1,
       name: 'John Doe',
-      photo: 'src/assets/clients/client_1.jpg',
+      photo: img1,
     },
     {
       id: 2,
-      photo: 'src/assets/clients/client_2.jpg',
+      photo: img2,
     },
     {
       id: 3,
-      photo: 'src/assets/clients/client_3.jpg',
+      photo: img3,
     },
     {
       id: 4,
-      photo: 'src/assets/clients/client_4.jpg',
+      photo: img4,
     },
     {
       id: 5,
-      photo: 'src/assets/clients/client_8.jpg',
+      photo: img5,
     },
     {
       id: 6,
-      photo: 'src/assets/clients/client_6.jpg',
+      photo: img6,
     },
     // Add more teams as needed
   ];
@@ -38,11 +44,11 @@ const OurClients = () => {
   const settings = {
     
     infinite: true,
-    speed: 800,
+    speed: 4000,
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 4000,
     responsive: [
       {
         breakpoint: 1024,

@@ -7,15 +7,19 @@ import { FaBars, FaHome, FaTimes } from 'react-icons/fa';
 import AOS from 'aos';
 import "../styles/style.css"
 
+import img1 from "../assets/bg/hero-bg-3.jpg"
+import img2 from "../assets/bg/hero-bg-2.jpg"
+import img3 from "../assets/bg/hero-bg-1.jpg"
+
 const HomePage = () => {
  
   const [isOpen, setIsOpen] = useState(false);
   
 
   const [backgroundImages, setBackgroundImages] = useState([
-    { id: 1, image: 'src/assets/bg/hero-bg-3.jpg' },
-    { id: 2, image: 'src/assets/bg/hero-bg-2.jpg' },
-    { id: 3, image: 'src/assets/bg/hero-bg-1.jpg' }
+    { id: 1, image: img1 },
+    { id: 2, image: img2 },
+    { id: 3, image: img3 }
   ]);
 
   useEffect(() => {
